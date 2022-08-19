@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Redaction 35 Italic';
+    font-weight: bold;
+    src: url('assets/fonts/Redaction35-Italic.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Redaction 50 Italic';
+  font-weight: bold;
+  src: url('assets/fonts/Redaction50-Italic.otf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Redaction';
+    font-weight: bold;
+    src: url('assets/fonts/Redaction50-Regular.otf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Neue Montreal';
+    font-weight: bold;
+    src: url('assets/fonts/NeueMontreal-Regular.otf') format('truetype');
+}
+
+html, body {
+    height: 100vh;
+ 
+    padding: 1rem;
+  }
+
+.page-body{
+  background-color:whitesmoke;
+
+}
+
+.index-body{
+  background-color:rgb(128, 128, 128);
+}
+
+h1{
+    font-family: 'Redaction 35 Italic';
+    color: rgb(217, 255, 0);
+    font-size: 8rem;
+    padding: 0%;
+    margin: 0%;
+    line-height: 6.5rem;
+  }
+
+  h2{
+    font-family: 'Redaction 35 Italic';
+    color:  rgb(128, 128, 128);
+  
+    font-size: 5rem;
+    padding: 0%;
+    margin: 0%;
+    line-height: 4.5rem;
+
+  }
+
+  h4{
+    font-family: 'Redaction 50 Italic';
+    color: rgb(217, 255, 0);
+    font-size: 2rem;
+    line-height: 3rem;
+
+  
+  }
+
+
+
+p{
+    font-family: 'Neue Montreal';
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 3rem;
+    
+  }
+
+  .grid-element{
+  }
+
+  .transparent{
+    color: transparent;
+    font-family: 'Neue Montreal';
+
+    text-decoration: underline whitesmoke;
+    text-decoration-thickness: 1.5px;
+    text-decoration-skip: none;
+  }
+
+  .transparent:hover{
+    color:whitesmoke;
+    text-decoration-skip: none;
+    text-decoration: none;
+  }
+
+ 
