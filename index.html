@@ -8,52 +8,67 @@
 </head>
 <body class="index-body">
     <div class="grid-container">
-        <div class="grid-element" style="grid-column: span 3;">
-            <h1>
-                Creative Process Journal
-            </h1>
+
+        <div class="grid-element" style="grid-column: span 1;">
+            <h2>Process + Progress</h2>
         </div>
-     
-        <div class="grid-element" style="grid-column: span 3;">
-            <h4>
-               (Week) 1.
-                <span class="transparent">
-                   <a class="transparent" href="./weekly-page/page1.html">Determining a research topic </a>
-                </span>
-                 &nbsp;
+        <div class="grid-element" style="grid-column: span 1;">
+      
+                <a onmouseover="revealImage('week1-image')" onmouseout="hideImage('week1-image')" href="./weekly-page/page1.html">
+                    <h4> 1.  Determining a research topic</h4>
+                </a>
+               <br>
+                <a onmouseover="revealImage('week2-image')" onmouseout="hideImage('week2-image')" href="./weekly-page/page1.html">
+                    <h4> 2.  Narrowing down focus</h4>
+                </a>
+                <br>
+                <a onmouseover="revealImage('week3-image')" onmouseout="hideImage('week3-image')" href="./weekly-page/page1.html">
+                   <h4>3.  Beginning experiments</h4> 
+                </a>
+                <br>
 
-               2.
-                <span class="transparent">
-                   Narrowing down on focus
-                </span>
-                &nbsp;
-
-                3.
-                <span class="transparent">
-                   Experiments with physical computing
-                </span>
-                &nbsp;
-
-                4.
-                <span class="transparent">
-                  Failure and re-evaluating processes
-                </span>
-                &nbsp;
-
-                
-
-
-               
-            </h4>
+           
         </div>
-        <div class="grid-element">
-            
+
+
+        <div class="grid-element" style="grid-column: span 4;">
+        
+
+            <img class="default-hide" id="week1-image" src="./assets/images/index/week-1-feature.png">
+            <img class="default-hide" id="week2-image" src="./assets/images/index/week-2-feature.png">
+            <img class="default-hide" id="week3-image" src="./assets/images/index/week-3-feature.png">
+
         </div>
+    
     </div>
 
 </body>
 
     <script>
-        let 
+
+
+function revealImage(image){
+    let x=document.getElementById(image);
+    let title=document.getElementById('title-cpj');
+    x.style.display="block";
+    title.style.display="none";
+}
+
+function hideImage(image){
+    let y=document.getElementById(image);
+    y.style.display="none";
+    let title=document.getElementById('title-cpj');
+    title.style.display="block";
+}
+// document.getElementById("reveal-img").addEventListener("mouseover", mouseOver);
+// document.getElementById("reveal-img").addEventListener("mouseout", mouseOut);
+
+// function mouseOver() {
+//   document.getElementById("actual-img").style.display = "block";
+// }
+
+// function mouseOut() {
+//   document.getElementById("actual-img").style.display = "none";
+// }
     </script>
 </html>
