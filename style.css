@@ -96,6 +96,17 @@ background-color: whitesmoke;
   }
 
 
+  .index-body h6{
+    font-family: 'Neue Montreal';
+    color: whitesmoke;
+    font-size: 1rem;
+   
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+  
+  }
+
   .index-body a, a:hover{
     text-decoration: none;
   }
