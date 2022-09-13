@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'Redaction 35 Italic';
+    font-weight: bold;
+    src: url('assets/fonts/redaction/Redaction35-Italic.otf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Redaction 70 Italic';
+  font-weight: bold;
+  src: url('assets/fonts/redaction/Redaction70-Italic.otf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('assets/fonts/neue montreal/NeueMontreal-Regular.otf') format('truetype');
+}
+
+
+.brown-bg{
+background-color: rgb(104, 88, 84);
+}
+
+.whitesmoke-bg{
+  background-color: whitesmoke;
+}
+
+.brown-fg{
+
+}
+
+.whitesmoke-fg{
+color: whitesmoke;
+
+}
+
+
+html, body {
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
+    /* overflow: hidden; */
+    padding: 1rem;
+  }
+
+
+/* index body css */
+.index-body{
+  background-color:rgb(104, 88, 84);
+
+}
+
+.index-body h1{
+    font-family: 'Redaction 35 Italic';
+    color: whitesmoke;
+  
+    font-size: 7rem;
+    padding: 0%;
+    margin: 0%;
+    line-height: 6.5rem;
+  }
+
+  .index-body h2{
+    font-family: 'Redaction 35 Italic';
+    color: whitesmoke;
+  
+    font-size: 2.7rem;
+    padding: 0%;
+    margin: 0%;
+    line-height: 2.5rem;
+  }
+
+  .index-body h2:hover{
+    font-family: 'Redaction 70 Italic';
+    
+  
+    font-size: 2.7rem;
+    padding: 0%;
+    margin: 0%;
+    line-height: 2.5rem;
+  }
+
+  .index-body h3{
+    font-family: 'Redaction 35 Italic';
+    color: rgb(104, 88, 84);
+    font-size: 2.7rem;
+    line-height: 2.5rem;
+    padding: 0%;
+    margin: 0%;
+
+  }
+
+
+  .index-body h4{
+    font-family: 'Neue Montreal';
+    color: whitesmoke;
+    font-size: 1.1rem;
+   
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+  
+  }
+
+  .index-body h4:hover{
+    color:rgb(104, 88, 84);
+    font-family: 'Neue Montreal';
+background-color: whitesmoke;
+    /* text-decoration: underline whitesmoke;
+    text-decoration-thickness: 1.5px;
+    text-decoration-skip: none;  */
+  }
+
+
+  .index-body h6{
+    font-family: 'Neue Montreal';
+    color: whitesmoke;
+    font-size: 1rem;
+   
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+  
+  }
+
+  .index-body a, a:hover{
+    text-decoration: none;
+  }
+
+
+  
+  .index-body p{
+    font-family: 'Neue Montreal';
+    color: whitesmoke;
+    font-size: 1rem;
+    letter-spacing: 0.04rem;
+    
+}
+
+/* end of index body css */
+
+/* page body css */
+.page-body{
+  background-color: whitesmoke;
+
+}
+
+.page-body h1{
+    font-family: 'Redaction 35 Italic';
+    color: rgb(104, 88, 84);;
+  
+    font-size: 7rem;
+    padding: 0%;
+    margin: 0%;
+    line-height: 6.5rem;
+  }
+
+  .page-body h2{
+    font-family: 'Redaction 35 Italic';
+    color: rgb(104, 88, 84);;
+  
+    font-size: 2.7rem;
+    padding: 0%;
+    margin: 0%;
+    line-height: 2.5rem;
+  }
+
+  .page-body h2:hover{
+    font-family: 'Redaction 70 Italic';
+    color: rgb(104, 88, 84);;
+  
+    font-size: 2.7rem;
+    padding: 0%;
+    margin: 0%;
+    line-height: 2.5rem;
+  }
+
+  .page-body h3{
+    font-family: 'Redaction 35 Italic';
+    color: rgb(104, 88, 84);
+    font-size: 2.7rem;
+    line-height: 2.8rem;
+    padding: 0%;
+    margin: 0%;
+
+  }
+
+
+  .page-body h4{
+    font-family: 'Neue Montreal';
+    color:rgb(104, 88, 84);;
+    font-size: 1.1rem;
+   
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+  
+  }
+
+  .page-body h4:hover{
+   
+    color:whitesmoke;
+    font-family: 'Neue Montreal';
+background-color: rgb(104, 88, 84);
+
+    /* text-decoration: underline rgb(104, 88, 84);;
+    text-decoration-thickness: 1.5px;
+    text-decoration-skip: none;  */
+  }
+
+  .page-body h6{
+    font-family: 'Neue Montreal';
+    color: rgb(104, 88, 84);
+    font-size: 1rem;
+   
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+  
+  }
+
+  .page-body .callout{
+    font-family: 'Neue Montreal';
+    color:whitesmoke;
+    background-color: rgb(104, 88, 84);
+
+  
+  }
+  .page-body .callout:hover{
+    font-family: 'Neue Montreal';
+    background-color:whitesmoke;
+   color: rgb(104, 88, 84);
+   text-decoration: underline;
+
+  
+  }
+
+
+  .page-body a, a:hover{
+    color: rgb(104, 88, 84);;
+    text-decoration: none;
+  }
+  
+ 
+
+
+  
+  .page-body p{
+    font-family: 'Neue Montreal';
+    color: rgb(104, 88, 84);;
+    font-size: 1.2rem;
+    letter-spacing: 0.03rem;
+    line-height: 1.8rem;
+    
+}
+
+.page-body figure{
+
+  margin: 0%;
+}
+
+.page-body figcaption{
+  font-family: 'Neue Montreal';
+  color: rgb(104, 88, 84);;
+  font-size: 0.8rem;
+  letter-spacing: 0.03rem;
+  
+  padding: 0.3rem 0rem;
+}
+
+
+.page-body li{
+text-decoration: none;
+padding: 0%;
+}
+
+.page-body ol, ul{
+padding: 0%;
+}
+/* end of page body css */
+
+
+
+
+
+
+
+
+
+
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+    'title menulist content';
+    column-gap: 2.5%;
+    
+  
+  }
+
+
+  .content{
+    overflow: clip;  }
+
+
+
+  img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding: 0%;
+    margin: 0%;
+  }
+
+
+  .default-hide{
+    display:none;
+  }
+ 
