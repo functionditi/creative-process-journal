@@ -160,7 +160,7 @@ background-color: whitesmoke;
   }
 
   .page-body h3{
-    font-family: 'Neue Montreal';
+    font-family: 'Redaction 35 Italic';
     color: rgb(104, 88, 84);
     font-size: 2.7rem;
     line-height: 2.8rem;
@@ -190,6 +190,17 @@ background-color: rgb(104, 88, 84);
     /* text-decoration: underline rgb(104, 88, 84);;
     text-decoration-thickness: 1.5px;
     text-decoration-skip: none;  */
+  }
+
+  .page-body h5{
+   
+    font-family: 'Redaction 35 Italic';
+    color:rgb(104, 88, 84);;
+    font-size: 1.8rem;
+   
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
   }
 
   .page-body h6{
@@ -233,7 +244,7 @@ background-color: rgb(104, 88, 84);
     font-family: 'Neue Montreal';
     color: rgb(104, 88, 84);;
     font-size: 1.2rem;
-    letter-spacing: 0.03rem;
+    letter-spacing: 0.00rem;
     line-height: 1.8rem;
     
 }
@@ -297,8 +308,22 @@ padding: 0%;
     margin: 0%;
   }
 
+  video, iframe{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding: 0%;
+    margin: 0%;
+  }
+
 
   .default-hide{
     display:none;
   }
  
+
+  hr{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(104, 88, 84), rgba(0, 0, 0, 0));
+  }
