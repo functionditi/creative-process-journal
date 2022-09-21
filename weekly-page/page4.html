@@ -173,7 +173,7 @@ and I wondered if using that as a motif could take me anywhere.
 
             </p>
 
-            <div style="display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 1rem; ">
+            <div class="gallery-grid">
                 <figure>
                     <img src="../assets/images/week-4/froclicking-in-the-fields.JPG">
                     <figcaption>Rossane and I identifying a suitable Mimosa candidate to steal.</figcaption>
@@ -221,10 +221,10 @@ and I wondered if using that as a motif could take me anywhere.
             <br>
 
             <h5>
-              Making + (possibly) murdering a plant.
+                Learning about capacitive sensors. 
             </h5>
             <p>
-                I also returned to Frankie (short for Frankenstein) the Monstera plant that I used to recreate Botanicus Interacticus  and Interactive Plant Growing. I was having trouble getting my touch mechanism to work, but  Andreas told me to not overthink or over complicate methods and processes, and it was as easy as sticking the wire into the soil to evoke a numerical output when I touched it. In essence, don’t use a human to complete the circuit, but rather, detect his or her resistance instead.
+                I also returned to Frankie (short for Frankenstein) the Monstera plant that I worked with earlier. I was having trouble getting my touch mechanism to work, but  Andreas told me to not overthink or over complicate methods and processes, and it was as easy as sticking the wire into the soil to evoke a numerical output when I touched it. In essence, don’t use a human to complete the circuit, but rather, detect his or her resistance instead.
 
             </p>
 
@@ -232,19 +232,56 @@ and I wondered if using that as a motif could take me anywhere.
                 At first, I didn’t fully understand this because I couldn’t recall details in high school physics about resistance. The write Andreas gave me was soldered onto a 1M resistor, which went into two pins in the Arduino. How did this work?
             </p>
 
+            <div class="gallery-grid">
+                <figure>
+                    <img src="../assets/images/week-4/resistor.jpg">
+                    <figcaption>The resistor Andreas lent me, with a wire soldered onto one of the ends.</figcaption>
+                </figure>
+                <figure>
+                    <img src="../assets/images/week-4/capacitivesensor.gif">
+                    <figcaption>A circuit diagram via <a class="callout" href="https://playground.arduino.cc/Main/CapacitiveSensor/" target="_blank">source.</a></figcaption>
+                </figure>
+            </div>
+
+         
+
             <p>
 
-After some handy googling, I realised that this was basically a capacitive sensor and studied up a bit on the mechanisms (using this reference). I could use Arduino’s CapacativeSense library and include it in the IDE code. For starters, I just used the sample threshold code given within that resource, but I understand it thoroughly and later will attempt to code from scratch. Thanks, _____!
+After some handy googling, I realised that this was basically a capacitive sensor and studied up a bit on the mechanisms <a class="callout" href="https://playground.arduino.cc/Main/CapacitiveSensor/" target="_blank">(using this reference by Paul Badger)</a>. I could use Arduino’s CapacativeSense library and include it in the C++ code that I push to the Arduino itself. For starters, I just used the sample threshold code given within that resource, but I understand it thoroughly and later will attempt to code from scratch. Thanks, Paul Badger!
 
             </p>
 
 
             <p>
-                With this sorted out, I was able to elicit a numerical response when I touched the exposed end of the wire, and even a lesser number when I stuck the wire into Frankie’s soil and touched her leaves. For now, I haven’t visually represented the numbers/information that I am receiving from the Arduino when touching the plant, but that could be something to work on next week.
+                With this sorted out, I was able to elicit a numerical response when I touched the exposed end of the wire, and even a lesser number when I stuck the wire into Frankie’s soil and touched her leaves. 
+               
+            </p>
+
+           
+               
+                <figure>
+                    <video controls loop><source src="../assets/images/week-4/touch-frankie-1.mp4" type="video/mp4"></video>
+                    <figcaption>Eliciting a numerical response through touch or close proximity.</figcaption>
+                </figure>
+          
+
+            <p>
+                Something interesting was also that when I touched my laptop as well, the capacative sensor would still activate and provide me with a reading. Makes sense, since my laptop is metal and also conductive. But is there a way to prevent this?
+            </p>
+
+            <figure>
+                <video controls loop><source src="../assets/images/week-4/laptop-producing-response.mp4" type="video/mp4"></video>
+                <figcaption>Even when I touch my laptop, I get a response from the Arduino.</figcaption>
+            </figure>
+          
+
+            <p>
+                During class, we were paired up in twos to discuss our projects. I was with Rachel, who is working on creating generative visual systems to create representations of every individual's personality. I enjoyed hearing from her about her research and realised that at this point, I could also benefit from visually representing the numerical data I was recieving, rather than just sticking to numbers on a screen as I was.
             </p>
 
             <p>
                 Andreas’s suggestions were to keep in mind or later consider what the dialogue/narrative is, and contextualise it a bit more. He also directed me towards Calm computing or Ubiquitous computing, a concept developed by Mark Weiser, which I think can be really relevant for my dissertation as well. 
+            
             </p>
 
             
