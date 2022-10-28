@@ -17,6 +17,11 @@
     src: url('assets/fonts/neue montreal/NeueMontreal-Regular.otf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Editorial New';
+  src: url('assets/fonts/Editorial New/EditorialNew-Regular.otf') format('truetype');
+}
+
 
 
 html, body {
