@@ -232,6 +232,17 @@ background-color: #056CF2;
   
   }
 
+  .page-body ul, ol, li{
+    font-family: 'Neue Montreal';
+    color: whitesmoke;
+    font-size: 1rem;
+   
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+  
+  }
+
   .page-body .callout{
     font-family: 'Neue Montreal';
     color:whitesmoke;
