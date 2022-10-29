@@ -13,6 +13,9 @@
         <div class="menu-list" style="grid-column: span 1;">
             <h2>process + progress</h2>
             <br>
+            <h6>
+                <span style="font-family: 'Redaction 35 Italic'; font-size: 1.5rem;">- <br>Aditi<br>Krishna<br> Neti.</span>
+              </h6>
             <br>
            
             
@@ -42,9 +45,12 @@
              <a onmouseover="revealImage('week6-image')" onmouseout="hideImage('week6-image')" href="./weekly-page/page6.html">
                 <h4>6. Going outside for a change.</h4> 
              </a>
-             <br>
+             <br> 
+         </div>
+         <div class="grid-element" style="grid-column: span 1;">
             
-             <!-- <a onmouseover="revealImage('week6-image')" onmouseout="hideImage('week6-image')" href="./weekly-page/page6.html">
+            
+             <a onmouseover="revealImage('week6-image')" onmouseout="hideImage('week6-image')" href="./weekly-page/page6.html">
                 <h4>7. A little respite and a catalogue makeover.</h4> 
              </a>
              <br>
@@ -52,9 +58,9 @@
              <a onmouseover="revealImage('week6-image')" onmouseout="hideImage('week6-image')" href="./weekly-page/page6.html">
                 <h4>9. The RPO push and some restructuring.</h4> 
              </a>
-             <br> -->
-            
-             <a onmouseover="revealImage('week6-image')" onmouseout="hideImage('week6-image')" href="./weekly-page/page10.html">
+             <br> 
+        
+              <a onmouseover="revealImage('week6-image')" onmouseout="hideImage('week6-image')" href="./weekly-page/page10.html">
                 <h4>10. Major existential crisis time!</h4> 
              </a>
              <br>
@@ -63,23 +69,25 @@
              </a>
              <br>
 
-             
-        </div>
+         </div>
+
+
+        
 
          
 
         <div class="grid-element" style="grid-column: span 3;">
             
             <!-- <h2>process + progress</h2> -->
-            <img class="default-hide" id="week1-image" src="./assets/images/index/week-1-feature-a.png">
-            <img class="default-hide" id="week2-image" src="./assets/images/index/week-2-feature.jpg">
-            <img class="default-hide" id="week3-image" src="./assets/images/index/week-3-feature.png">
-            <img class="default-hide" id="week4-image" src="./assets/images/index/week-4-feature.png">
-            <img class="default-hide" id="week5-image" src="./assets/images/index/week-5-feature.png">
-            <img class="default-hide" id="week6-image" src="./assets/images/index/week-6-feature.png">
+            <img class="default-hide" id="week1-image" src="./assets/images/week-1/next-nature-spread.png">
+            <img class="default-hide" id="week2-image" src="./assets/images/week-2/feature.jpg">
+            <img class="default-hide" id="week3-image" src="./assets/images/week-3/feature-image.png">
+            <img class="default-hide" id="week4-image" src="./assets/images/week-4/feature.png">
+            <img class="default-hide" id="week5-image" src="./assets/images/week-5/cover.png">
+            <img class="default-hide" id="week6-image" src="./assets/images/week-6/prep-going-outside-3.jpg">
 
         </div>
-        <div class="grid-element" style="grid-column: span 1; ">
+        <!-- <div class="grid-element" style="grid-column: span 1; ">
         <h6>
           <span style="font-family: 'Redaction 35 Italic'; font-size: 1.5rem;">Aditi<br>Krishna<br> Neti.</span>
         </h6>
@@ -96,10 +104,11 @@
             <li>Update index page (images as background when hovered)</li>
             <li>Update color scheme, headings and layout across all pages</li>
             <li>Add text to page 6</li>
+            <li></li>
         </ol>
        
 
-        </div>
+        </div> -->
     
     </div>
 
@@ -107,12 +116,22 @@
 
     <script>
 
+let imageURL="url('assets/images/index/week-2-feature-b-b.png')";
+
+function changeBg(){
+     document.body.style.backgroundImage = imageURL;
+}
+
+changeBg();
 
 function revealImage(image){
     let x=document.getElementById(image);
     let title=document.getElementById('title-cpj');
     x.style.display="block";
     title.style.display="none";
+    let bgClass=document.getElementsByClassName('index-body');
+    imageURL="url('assets/images/index/week-1-feature-b.png')";
+    
 }
 
 function hideImage(image){
