@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Redaction 35 Italic';
     font-weight: bold;
-    src: url('assets/fonts/formula-condensed/FormulaCondensed-Light.otf') format('truetype');
+    src: url('assets/fonts/redaction/Redaction35-Italic.otf') format('truetype');
 }
 
 
@@ -35,7 +35,8 @@ html, body {
 
 /* index body css */
 .index-body{
-  background-color:#056CF2;
+  background-color: #685854;
+
 
 }
 
@@ -62,7 +63,6 @@ html, body {
   }
 
   .index-body h2:hover{
-    
     font-family: 'Redaction 70 Italic';
     
   
@@ -70,12 +70,11 @@ html, body {
     padding: 0%;
     margin: 0%;
     line-height: 2.5rem;
-    
   }
 
   .index-body h3{
     font-family: 'Redaction 35 Italic';
-    color: #056CF2;
+    color: rgb(104, 88, 84);
     font-size: 2.7rem;
     line-height: 2.5rem;
     padding: 0%;
@@ -96,7 +95,7 @@ html, body {
   }
 
   .index-body h4:hover{
-    color:#056CF2;
+    color:rgb(104, 88, 84);
     font-family: 'Neue Montreal';
 background-color: whitesmoke;
     /* text-decoration: underline whitesmoke;
@@ -134,19 +133,13 @@ background-color: whitesmoke;
 
 /* page body css */
 .page-body{
-  background-color: white;
   background-color: whitesmoke;
-
-  background-color: rgba(245,245,245,1);
-  opacity: 1;
-  background-image: radial-gradient(#27df33 1px, rgba(245,245,245,1) 1px);
-  background-size: 18px 18px;
 
 }
 
 .page-body h1{
     font-family: 'Redaction 35 Italic';
-    color: #056CF2;;
+    color: rgb(104, 88, 84);;
   
     font-size: 7rem;
     padding: 0%;
@@ -156,7 +149,7 @@ background-color: whitesmoke;
 
   .page-body h2{
     font-family: 'Redaction 35 Italic';
-    color: #056CF2;;
+    color: rgb(104, 88, 84);;
   
     font-size: 2.7rem;
     padding: 0%;
@@ -165,10 +158,8 @@ background-color: whitesmoke;
   }
 
   .page-body h2:hover{
-
-    transition: 3s;
     font-family: 'Redaction 70 Italic';
-    color: #056CF2;;
+    color: rgb(104, 88, 84);;
   
     font-size: 2.7rem;
     padding: 0%;
@@ -178,11 +169,10 @@ background-color: whitesmoke;
 
   .page-body h3{
     font-family: 'Redaction 35 Italic';
-    color: #27df34;
-    font-size: 6rem;
+    color: rgb(104, 88, 84);
+    font-size: 2.7rem;
     line-height: 2.8rem;
-    padding-top: 5%;
-    padding-bottom: 3%;
+    padding: 0%;
     margin: 0%;
 
   }
@@ -190,7 +180,7 @@ background-color: whitesmoke;
 
   .page-body h4{
     font-family: 'Neue Montreal';
-    color:#056CF2;;
+    color:rgb(104, 88, 84);;
     font-size: 1.1rem;
    
     text-decoration: none;
@@ -200,12 +190,12 @@ background-color: whitesmoke;
   }
 
   .page-body h4:hover{
-    transition: 0.5s;
+   
     color:whitesmoke;
     font-family: 'Neue Montreal';
-background-color: #056CF2;
+background-color: rgb(104, 88, 84);
 
-    /* text-decoration: underline #056CF2;;
+    /* text-decoration: underline rgb(104, 88, 84);;
     text-decoration-thickness: 1.5px;
     text-decoration-skip: none;  */
   }
@@ -213,8 +203,8 @@ background-color: #056CF2;
   .page-body h5{
    
     font-family: 'Redaction 35 Italic';
-    color:#27df34;
-    font-size: 2.5rem;
+    color:rgb(104, 88, 84);;
+    font-size: 1.8rem;
    
     text-decoration: none;
     padding: 0%;
@@ -223,7 +213,7 @@ background-color: #056CF2;
 
   .page-body h6{
     font-family: 'Neue Montreal';
-    color: #056CF2;
+    color: rgb(104, 88, 84);
     font-size: 1rem;
    
     text-decoration: none;
@@ -235,14 +225,14 @@ background-color: #056CF2;
   .page-body .callout{
     font-family: 'Neue Montreal';
     color:whitesmoke;
-    background-color: #056CF2;
+    background-color: rgb(104, 88, 84);
 
   
   }
   .page-body .callout:hover{
     font-family: 'Neue Montreal';
     background-color:whitesmoke;
-   color: #056CF2;
+   color: rgb(104, 88, 84);
    text-decoration: underline;
 
   
@@ -250,7 +240,7 @@ background-color: #056CF2;
 
 
   .page-body a, a:hover{
-    color: #056CF2;;
+    color: rgb(104, 88, 84);;
     text-decoration: none;
   }
   
@@ -260,9 +250,9 @@ background-color: #056CF2;
   
   .page-body p{
     font-family: 'Neue Montreal';
-    color: #000;;
+    color: rgb(104, 88, 84);;
     font-size: 1.2rem;
-    letter-spacing: 0.01rem;
+    letter-spacing: 0.00rem;
     line-height: 1.8rem;
     
 }
@@ -274,7 +264,7 @@ background-color: #056CF2;
 
 .page-body figcaption{
   font-family: 'Neue Montreal';
-  color: #056CF2;;
+  color: rgb(104, 88, 84);;
   font-size: 0.8rem;
   letter-spacing: 0.03rem;
   
@@ -343,7 +333,7 @@ padding: 0%;
   hr{
     border: 0;
     height: 3px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #056CF2, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(104, 88, 84), rgba(0, 0, 0, 0));
   }
 
 
