@@ -33,6 +33,11 @@ html, body {
   }
 
 
+.formula-alt{
+  font-feature-settings: 'ss01';-moz-font-feature-settings: 'ss01';-webkit-font-feature-settings: 'ss01';
+}
+
+
 /* index body css */
 .index-body{
   background-color:#056CF2;
