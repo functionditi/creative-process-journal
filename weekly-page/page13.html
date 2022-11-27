@@ -47,150 +47,118 @@
            
             <h3>
                
-                EXPERIMENTS
+               SEN<span class="formula-alt">S</span>ING & SOL<span class="formula-alt">DE</span>RING
+               <span class="formula-alt"></span>
+               <span class="formula-alt"></span>
+
+               
             </h3>  
+
+            <br>
             
-
-            <figure>
-                <video src="../assets/images/week-10/plant-theremin-1.mp4" loop controls ></video>
-                <figcaption>p5 experiments back in week 6.</figcaption>
-            </figure>
-            <figure>
-                <video src="../assets/images/week-10/plant-theremin-2-2.mp4" loop controls ></video>
-                <figcaption>p5 experiments back in week 6.</figcaption>
-            </figure>
-                <figure>
-                    <img src="../assets/images/week-12/david-bowen-plant mechete.jpeg" alt="">
-                    <figcaption>Plant Machete, David Bowen</figcaption>
-                </figure>
-                <div style="display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 1rem; ">
-
-                <figure>
-                    <img src="../assets/images/week-12/david-bowen-3D-printing-1.jpeg" alt="">
-                    <figcaption>>David Bowen, 3D printing</figcaption>
-                </figure>
-                <figure>
-                    <img src="../assets/images/week-12/david-owen-growth-rendering.jpeg" alt="">
-                    <figcaption>David Bowen, Growth Rendering</figcaption>
-                </figure>
-            </div>
-
-
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 1rem; ">
-
-                <figure>
-                    <video src="../assets/images/week-12/3d-SCANS-plant1.MP4" loop controls ></video>
-                    <figcaption>.</figcaption>
-                </figure>
-                <figure>
-                    <video src="../assets/images/week-12/3d-SCANS-plant2.MP4" loop controls ></video>
-                    <figcaption>.</figcaption>
-                </figure>
-                <figure>
-                    <video src="../assets/images/week-12/3d-SCANS-plant3.MP4" loop controls ></video>
-                    <figcaption>.</figcaption>
-                </figure>
-            
-            </div>
-
             <p>
-                note: add timelapse, turgidity, table
+                How can I tell what my plant is feeling? I don’t really know. Do plants even feel?
+
             </p>
 
-
             <figure>
-                <img src="../assets/images/week-12/CA-wip.png" alt="">
-                <figcaption>Starting CA</figcaption>
+                <img src="../assets/images/week-13/thermographic.png" alt="">
+                <figcaption>Thermographic image data used to evaluate drought stress in maize plants. (Zubler and Yoon, 9)</figcaption>
             </figure>
 
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 1rem; ">
+            <p>
+                I want to spend this week planning what my prototype will look like in accordance with the questions above. I came across this research article titled <a class="callout" href="https://pubmed.ncbi.nlm.nih.gov/33260412/" target="_blank">'Proximal Methods for Plant Stress Detection Using Optical Sensors and Machine Learning'</a>
+                that looks into the detection of stress in plants through visual means. One means of detecting stress was through temperature, by capturing thermographic images of plants. I wondered if I could use a thermal imaging sensor to do the same, (obviously in a much lower-fidelity capacity).
+
+            </p>
+
+            <p>
+                The same research article also looks into a variety of optical sensing methods to detect plant stress. All of their suggestions are in the context of agriculture and prioritise the production of food, however, but the application of it is still relevant here. 
+
+            </p>
+            <figure>
+                <img src="../assets/images/week-13/optical-methods.png" alt="">
+                <figcaption>Optical Methods Used for Plant Stress Detection (Zubler and Yoon, 11)</figcaption>
+            </figure>
+
+            <p>
+                Looking at my MIRO board, I have three possible ways to begin to answer the question: How can I tell what my plant is feeling? 
+
+            </p>
+            <figure>
+                <img src="../assets/images/week-13/miro-board.png" alt="">
+             
+            </figure>
+            <br><br>
+
+            <h5>AMG8833 Thermal Camera
+            </h5>
+            <br>
+            <br>
+            <figure>
+                <img src="../assets/images/week-13/thermal-camera.avif" alt="">
+                <figcaption><a class="callout" href="https://create.arduino.cc/projecthub/jdanielse/amg8833-thermal-camera-fc8478" target="_blank">Source</a></figcaption>
+            </figure>
+
+            <p>
+                The thermal camera module required some prerequisite preparation which I did not do. Given the fact that we were two weeks away from prototype submission, I decided to shelf this experiment until I was able to get my hand on the sensor, maybe in India or maybe online in a few week’s time when it is shipped. Andreas suggested instead looking into IR sensors, or using actual camera modules instead.                 
+            </p>
+
+            <p>
+                The aim was to use Individually Addressable LEDs to create light-based animations depending on plant stress, a way to indicate whether the plant was doing well or not.  
+            </p>
+
+            <h5>
+                RGB Color Sensing
+            </h5>
+
+            <p>
+                Dealing with the aspect of chlorophyll production = green = good health, I investigated using an RGB sensor to detect plant leaves. I bought a module from Sim Lim Tower and had to solder it together for it to work, which was my first time! 
+
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 1rem; ">
                 <figure>
-                    <img src="../assets/images/week-12/CA_image_1.png" alt="">
-                    <figcaption>Starting CA</figcaption>
+                    <img src="../assets/images/week-13/color-sensor-separate.jpg" alt="">
+                   <figcaption>The RGB color sensor components.</figcaption>
                 </figure>
                 <figure>
-                    <img src="../assets/images/week-12/CA_image_2.png" alt="">
-                    <figcaption>Starting CA</figcaption>
+                    <img src="../assets/images/week-13/unreliable-connections.jpg" alt="">
+                    <figcaption>Connection was unstable when unsoldered.</figcaption>
                 </figure>
-                <figure>
-                    <img src="../assets/images/week-12/CA_image_3.png" alt="">
-                    <figcaption>Starting CA</figcaption>
-                </figure>
-            </div> 
-
-            <figure>
-                <video src="../assets/images/week-12/ca-interations.mp4" loop controls ></video>
-                <figcaption>.</figcaption>
-            </figure>
-
-            <figure>
-                <video src="../assets/images/week-12/projector.mp4" loop controls ></video>
-                <figcaption>.</figcaption>
-            </figure>
-
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 1rem; ">
-
-            <figure>
-                <img src="../assets/images/week-12/mapmap.png" alt="">
-                <figcaption>mapmap</figcaption>
-            </figure>
-
-            <figure style="grid-column: 2 / span 2;">
-                <img src="../assets/images/week-12/surfacemaplibrary.png" alt="">
-                <figcaption>surface map github</figcaption>
-            </figure>
-
-
             </div>
+            <br>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 1rem; ">
+                <figure>
+                    <img src="../assets/images/week-13/soldering-badly.jpg" alt="">
+                    <figcaption>Mistakenly using desoldering wire to solder, haha.</figcaption>
+                </figure>
+                <figure>
+                    <video src="../assets/images/week-13/soldering-correctly.mp4" controls muted></video>
+                    <figcaption>Finally got it right!</figcaption>
+                </figure>
+            </div>
+            
+            <p>
+                I love soldering. It’s a very intricate process that you have to be quite careful with, but the satisfying hiss and fumes of the solder settling into place is great and relaxing (while casually holding a 400 degree celsius metal wand).            
+            </p>
 
-            <figure style="grid-column: 2 / span 2;">
-                <img src="../assets/images/week-12/control-p5.png" alt="">
-                <figcaption>wow, hello andreas</figcaption>
+            <h5>
+                Wearable Technology
+            </h5>
+
+            <p>
+                I was thinking about how the above sensors could manifest in the form of a prototype. After reading a journal article about embodied interaction, I was wondering if thinking about wearable technology was a path worth wandering down. The benefits of wearable technology include portability, and ties back into the notions of ubiquitous computing quite well. 
+            </p>
+
+            <figure>
+                <img src="../assets/images/week-13/basic-sketches.png" alt="">
             </figure>
 
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 1rem; ">
-
-                <figure>
-                    <img src="../assets/images/week-12/processing-1-5-issues-1.png" alt="">
-                    <figcaption>mapmap</figcaption>
-                </figure>
-    
-                <figure>
-                    <img src="../assets/images/week-12/processing-1-5-issues.png" alt="">
-                    <figcaption>1.5.1</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="../assets/images/week-12/processing-1-5-issues-2.png" alt="">
-                    <figcaption>aww, man</figcaption>
-                </figure>
-    
-    
-             </div>
-
-            
-
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 1rem; ">
-
-                <figure style="grid-column: 1 / span 2;">
-                    <img src="../assets/images/week-12/projection-mapping-jo-1.png" alt="">
-                    <figcaption>p5 projection mapping jo</figcaption>
-                </figure>
-                <figure>
-                    <img src="../assets/images/week-12/projection-mapping.png" alt="">
-                    <figcaption>p5 projection mapping jo</figcaption>
-                </figure>
-    
-             </div>
-
-            
-
-            
-
-
 
            
-           
+
+            
+
         </div>
 
       
