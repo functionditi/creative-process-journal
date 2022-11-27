@@ -57,13 +57,7 @@
                 I decided to aim for the sound of a theremin because as an instrument, it operates on multiples axes and encourages dimensional interactions. Using p5.Oscillator, I set up a system where the signal received from capacitive input would result in a specific sound and pitch. I also realised I don’t know alot about musical terminology so I hope I’m not getting terms mixed up.
 
             </p>
-            <p>
-                Here’s an ungrounded version of the plant theremin: it’s quite noisy and I think takes signals from everywhere, not just the plant. 
-
-            </p>
-
-            
-
+          
             <figure>
                 <video src="../assets/images/week-10/plant-theremin-1.mp4" loop controls ></video>
                 <figcaption>p5 experiments back in week 6.</figcaption>
@@ -83,7 +77,7 @@
             </p>
 
             <p>
-                I also came across this installation piece title 'Plant Machete.' The artist, David Bowen equips a philodendron plant with a machete and allows it to perform self-defence, with slashes and stabs of the weapon being dictated by signals received from the plant. It’s a fascinating combination of mechanical and natural systems and conveys the true ‘living’ nature of a plant well.
+                I also came across this installation piece titled 'Plant Machete.' The artist, David Bowen equips a philodendron plant with a machete and allows it to perform self-defence, with slashes and stabs of the weapon being dictated by signals received from the plant. It’s a fascinating combination of mechanical and natural systems and conveys the true ‘living’ nature of a plant well.
 
             </p>
 
@@ -136,39 +130,106 @@
             </div>
 
             <p>
-                note: add timelapse, turgidity, table
+                My 3D scans are not perfect but if I am consistent and do it over a period of time, I would definitely be able to trace out specific growth to a greater level of detail when compared to a simple photo. 
+
             </p>
+
+            <p>
+                I also came across this website called <a href="https://plantsinmotion.bio.indiana.edu/" class="callout" target="_blank">‘Plants in Motion’</a>  by Roger P. Hangarter which is a repository of timelapses! Even though it may not seem like it, plants move of their own volition according to external stimuli. It just so happens that these movements occur over a prolonged period of time, which us impatient people can sometimes miss. 
+
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 1rem; ">
+
+                <figure>
+                    <video src="../assets/images/week-10/sensitiveplant.m4v" loop controls ></video>
+                </figure>
+                <figure>
+                    <video src="../assets/images/week-10/shootingstarNutation.m4v" loop controls ></video>
+                </figure>
+                <figure>
+                    <video src="../assets/images/week-10/morningglorygroup.m4v" loop controls ></video>
+                </figure>
+            
+            </div>
+
+            <p>
+                I decided to set up a table that maps the five human senses to tropic and nastic movements of a plant. Over time, and over the December holidays especially, I hope to populate the table with extensive detailed observations. 
+
+            </p>
+
+            <figure>
+                <img src="../assets/images/week-10/comparative-study.png" alt="">
+                <figcaption>Starting comparitive studies</figcaption>
+            </figure>
+
+            <br><br>
+
+            <h5>
+                Projection Mapping
+            </h5>
+            <br>
+
+            <p>
+                For the light experiment, I wanted to explore how projection mapping could play a role and actuate plant signals and inputs. Previous existing Living Media Interface projects utilize screen to their advantage, but I want to explore how superimposing a visual onto the form of the plant itself can add value to the experience by targeting specific areas of a leaf or allowing for more interconnected self-expression. 
+
+            </p>
+
+            <p>
+                I began with Cellular Automata as a starting visual because its own algorithms are derived from systematic processes already existing in nature, and serves as a foundational basis for some organic patterns found on shells, leaves and other naturally-occurring substances. Cellular Automata is also very mathematically-driven, so using numerical data in collaboration with it should be doable. 
+
+
+
+            </p>
+
+
+
 
 
             <figure>
                 <img src="../assets/images/week-12/CA-wip.png" alt="">
-                <figcaption>Starting CA</figcaption>
+                <figcaption>Starting a Cellular Automata sketch.</figcaption>
             </figure>
+            <br>
 
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 1rem; ">
                 <figure>
                     <img src="../assets/images/week-12/CA_image_1.png" alt="">
-                    <figcaption>Starting CA</figcaption>
+                    <figcaption>Playing around with patterns</figcaption>
                 </figure>
                 <figure>
                     <img src="../assets/images/week-12/CA_image_2.png" alt="">
-                    <figcaption>Starting CA</figcaption>
+                    <figcaption>Overlays</figcaption>
                 </figure>
                 <figure>
                     <img src="../assets/images/week-12/CA_image_3.png" alt="">
-                    <figcaption>Starting CA</figcaption>
+                    <figcaption>And happy mistakes/glitches</figcaption>
                 </figure>
             </div> 
 
+            <br>
+
+          
             <figure>
                 <video src="../assets/images/week-12/ca-interations.mp4" loop controls ></video>
                 <figcaption>.</figcaption>
             </figure>
 
+            <p>
+                I got my hands on a projector and projected the CA pattern onto a wall to understand scale. 
+
+            </p>
+
+
             <figure>
                 <video src="../assets/images/week-12/projector.mp4" loop controls ></video>
                 <figcaption>.</figcaption>
             </figure>
+
+            <p>
+                Now that I had a basic code set up, I wanted to projection map onto a leaf surface so I could begin to curate and fine tune my p5 sketches. I remember back in year 1 Computation in Design,  we did the exact same thing: projected CA onto geometrical shapes. Let’s try organic now!
+            </p>
+
+         
 
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 1rem; ">
 
@@ -176,6 +237,7 @@
                 <img src="../assets/images/week-12/mapmap.png" alt="">
                 <figcaption>mapmap</figcaption>
             </figure>
+            
 
             <figure style="grid-column: 2 / span 2;">
                 <img src="../assets/images/week-12/surfacemaplibrary.png" alt="">
@@ -185,10 +247,16 @@
 
             </div>
 
+            <p>
+                I looked into a couple of softwares that support projection mapping. While mapmap was outdated on my OS, I did find a github library called Surface Map that I tried to install, and guess what, it is dependent on a library written by Andreas, hello!
+
+            </p>
+
             <figure style="grid-column: 2 / span 2;">
                 <img src="../assets/images/week-12/control-p5.png" alt="">
                 <figcaption>wow, hello andreas</figcaption>
             </figure>
+            <br><br>
 
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 1rem; ">
 
@@ -210,6 +278,12 @@
     
              </div>
 
+             <p>
+                Well, too bad because my laptop refused to support Processing version 1.5 so I gave up on that avenue. 
+
+             </p>
+             
+
             
 
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 1rem; ">
@@ -224,6 +298,41 @@
                 </figure>
     
              </div>
+
+             <p>
+                Instead, I found a p5.js projection mapping code adapted by Jo and aimed to use that instead. However, it only supports geometrical shapes, so I would have to give up some degree of fidelity when projecting. 
+
+             </p>
+
+             <figure>
+                <video src="../assets/images/week-10/cellular-automata.mp4" muted controls autoplay loop></video>
+            </figure>
+
+            <figure>
+                <video src="../assets/images/week-10/projection-mapping.mp4" muted controls autoplay loop></video>
+                
+            </figure>
+
+            <br>
+            <br>
+
+            <h5>Reflections</h5>
+
+            <p>
+                In the sound setup, interactions with the plant (when grounded, too noise when ungrounded) were successful because a distinct audible change could be heard once the interaction was performed. This opens up avenues for further plant-driven musical experimentation, and perhaps more variety in terms of sound and selectivity in terms of sound narrative can be considered. 
+
+            </p>
+
+            <p>
+                On the other hand, the light projection-mapping cellular automata system does not work because the light is unidirectional and casts shadows when the participant’s hands get in the way. Furthermore, it also works in only a dark setting, so it is automatically invalid and inactive for a majority of the time! Still, it proved to be a fascinating midnight experience. 
+
+            </p>
+
+            <p>
+                The use of light and sound provide opportunities related to ubiquitous computing and hold a place in an interactive system where multiple sensors can control multiple actuators! The variety in possibilities of manifestation allow for a firmer narrative to be created. 
+
+            </p>
+
 
             
 
