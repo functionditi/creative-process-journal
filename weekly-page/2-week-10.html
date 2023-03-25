@@ -1,0 +1,244 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Process Journal</title>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+</head>
+<body class="page-body">
+
+    <nav class="main__nav">
+        <ul>
+          <li><a href="./page15.html">previous</a></li>
+          <li><a></a></li>
+          <li><a href="./page14.html">next</a></li>
+        </ul>
+      </nav>
+
+    <div class="grid-container" style="position: fixed;">
+       
+         <div class="menu-list" style="grid-column: span 1;">
+
+            <a href="../index.html"><h2>process + progress</h2></a>
+          
+           
+         </div>
+         <div style="grid-column: 6/ span 1; width: 80%">
+            <h6>Week 1.</h6>
+            <figcaption>9 January 2023 -<br> 13 January 2023</figcaption>
+         </div>
+    </div>
+    <div class="grid-container">
+        <div class="content" style="grid-column: 2/ span 4;" >
+            <h3>
+               REVISITING THE PROJECT
+                <!-- <span class="formula-alt"></span> -->
+            </h3>  
+
+            <p>
+                Okay, I will be honest, I have been extremely checked out of my project for the past two and a half weeks. Looking at my project collaterals after so long at least has given me some sort of fresh perspective and general conversations I’ve had with people from different backgrounds has also helped.
+
+            </p>
+
+            <h5>Revisiting my second prototype </h5>
+
+            <p>
+                Let’s pick up where I left off with my second prototype. For my dissertation, I had reached the point of facilitating a dialogue but only with small talk. While I did user test it, the entire system itself was utterly janky and unreliable. What are the current issues and what can I do to fix them?
+
+            </p>
+
+            <p>
+                1. The teachable machine training model is not very accurate. <br>
+                I can fix this issue by retraining the model with a wider dataset that more accurately represents the graphs. Maybe 150-200 images even, just so I can have the most accurate outcome.
+            </p>
+
+            <p>
+                2. The interface needs work.
+                <br>
+                While I don’t consider this an immediate priority (I can always fix it later), I think the text is way too big. I will retain the graphs, however, because some feedback received was that it was interesting to actually see the graphs dip and spike according to the interactions.
+
+            </p>
+
+            <p>
+                3. I am missing the actual ‘conversation’ aspect. 
+
+                <br>
+                Now, this is an issue that I can’t really wrap my head around and try to fix. I think I first need to research what a conversational AI might look like and how I can go about building my own according a specific narrative that I am creating.
+                I also need to worry about being arbitrary, because that was a bit of an issue I had identified with my first axidraw prototype. 
+
+            </p>
+           
+            <p>
+                While these were the main core issues, I could just start working with what I have now and adapt along the way. The aim was to work towards this diagram:
+
+
+            </p>
+
+            <figure>
+                <figcaption>Have multiple sources of plant input and then create a variety of conversations at once. 
+                </figcaption>
+            </figure>
+        
+            <p>
+                Till now, I was working with only 1 source of input and one output in my interface, so let’s multiply by 4 (imagining that I had 4 plant inputs). I also replanted my Fittonias into this four-part compartment I found in Daiso so I could insert an electrode into the soil of each quadrant and have 4 plant inputs in one artefact.
+
+            </p>
+
+            <p>
+                Opening up my p5 code after about 2 weeks, I realised I had written it so messily previously, that it was so hard to follow. I spent some time cleaning it up, commenting and organising it into functions, because if even I can’t understand my own code, how can I ask anyone else for help?
+The code can be found here: https://editor.p5js.org/functionditi/sketches/acKW5Fn5W
+
+            </p>
+
+            <p>
+                I also realised that the way I had structured my code did not support the repeated use of functions, because if I altered a variable for reading 1 from the BareConductive board E1, all instances of that function being used would also be affected. 
+
+
+            </p>
+
+            <h5>
+                Object Oriented Programming
+
+            </h5>
+            <p>
+                OOPs (haha see what I did there?), gotta restructure my code. First, I tried turning every single variable into an array of 4 and then for each function I would access it via an index like so:
+
+            </p>
+
+            <p>
+                But then that was pretty inefficient because I had so many variables going on at once. Instead, I looked into using objects and Classes to organise all of these variables and functions into: so instead of have 4 of every variable, I would have four objects of that particular class, making it much easier. 
+            </p>
+
+            <p>
+                I had to do some research to figure out the implementation of classes and how to ensure that the functions within a class were self-referential, meaning that I had to use this.variable or this.function everywhere, which I felt really made my code look cluttered. Nevertheless, it worked absolutely well and I was able to create 4 graphs drawn on 4 separate buffers that fed into the image training model which resulted in an output.
+
+            </p>
+
+            <p>
+                But oh my god, the code is now so incredibly slow. It takes about 45 seconds for the entire code to load and even then there are random errors that pop up so I reload and wait again. This was a pretty frustrating experience and I didn’t know how to solve it, so I decided I would just ask Andreas later rather than breaking my own head over it. 
+
+            </p>
+
+            <h5>Setting Up A Project Website
+            </h5>
+
+            <p>
+                Taking a break from my slow code and related issues, I decided to start setting up a website that documented the entire overarching concept of my FYP and related prototypes. I structured it like so:
+
+            </p>
+
+            <h5>
+                Storytelling/Narrative
+
+            </h5>
+
+            <p>
+
+Based on conversations I had with Hafiz, Carlo and others, I realized that I can lean into the cultural narrative a little bit more. Keeping in hindsight what a cultural and holistic view of nature can look like in holistic terms, I decided to break up my project into three key themes: tending and nurturing, growing and learning and decaying+repurposing. I also decided to maybe create an artifact for each of these three themes for Open Studios.
+
+            </p>
+
+            <h5>
+                Open Studio Table Set-Up
+
+            </h5>
+
+            <p>
+                In preparation for a consult I had with Andreas that week, I also started thinking about what my Open Studio set-up could be like. I prepared a rough diagram
+of my proposed desk keeping in mind the holistic narrative I had discussed previously, shown below:
+Now, I had a rough idea of what I would do for the first two themes but fell short on ideas for the third, so I just left it blank. 
+
+            </p>
+
+            <p>
+                However, after a consult with Andreas, he mentioned that my open studio table should be much more about the journey and less about just the artifacts themselves. He also said it would be much more interesting if the project was more forward facing: the idea of decay and repurposing seemed very static in comparison and did not interest him personally. He proposed something more like this:
+
+            </p>
+
+            <p>
+                In hindsight, I do especially agree with him on the forward-facing part, since my research currently handles a topic that is set in a more speculative future. I also realised I had put in a decent amount of work in semester 1 in my Catalogue of Making, and experiments within, and showcasing that explorative process to potential employers and industry professionals was much more important.
+
+            </p>
+
+            <h5>Materiality and Art Direction
+            </h5>
+
+            <p>
+                I was also struggling with the idea of art direction: I had been sticking to using Formula Condensed and that same green and blue since Semester 1, Week 7 and I liked the look of it so I just rolled with it! Looking back, while I still do like it, I wonder if it makes the most conceptual sense with this project. I experimented with a few additional typefaces like so: 
+
+            </p>
+
+            <p>
+                I don’t know if it’s because I have spent so much time with this current art direction because it seems the most apt for me. I also considered using a bitmapped font like Redaction above but it’s very stylized and ascribes a certain feminine quality to my project (that I don’t mind) but feels a bit out of place.
+
+            </p>
+
+            <p>
+                I turned to every designer’s best friend, Pinterest, to see what other designersout there were using for projects related to nature. Here are some examples I did like:
+
+            </p>
+
+            <p>
+                However, I also think there is value in keeping things simple and neat and also layout wise: just set in grids. Sometime overthinking can be bad for me, and in year 1 I would experiment with funky fonts that may not have always worked. Year 3 Aditi does not overthink typography. This is not a branding or identity project, this is a computational project.
+
+            </p>
+
+            <p>
+                Okay, maybe a question to bring up and confirm for round table later!
+
+
+            </p>
+
+            <p>
+                Materiality wise, I also wondered if I should reconsider the pots I am using for my plants and/or the bottles. I am relying upon acrylic because I like the fact that you can see the soil through the walls (although with my current planter, I will have to drill holes into it for proper drainage to prevent root rot) and also I think it adds a futuristic quality to something we are usually used to seeing in ceramic planters.
+            </p>
+
+            <p>
+                However, keeping in mind that certain cultural quality, I wondered if using terracotta pots would be more beneficial and also tie the project back to Bangalore a bit more. I recently attended a clay workshop by Ferticlay in which I made a cute little pot:
+
+            </p>
+
+            <p>
+                I am in no way skilled at pottery or making pots but I wondered if I should give it a try.
+
+            </p>
+
+            <p>
+                Andreas’ feedback for the above: ideally terracotta would be best for the plant health wise because it is much more porous and allows proper drainage of water. However, I could be overthinking it and even using acrylic ascribes a nice and neat quality. I’m okay to even use the default pots that plants come in, but I didn’t want to do that because I think they are a little bit ugly and drab.
+
+
+            </p>
+
+            <h5>
+                Week Reflections
+
+            </h5>
+
+            <p>
+                I have a lost a fair bit of time and I think I am seeing how behind I am this week. I have some faith that I can whip up something cool in current timespan but to do that I really have to work hard.
+
+            </p>
+
+            <p>
+
+I am very invested in the idea of my prototype facilitating a dialogue, which has been the plan since week 5. But I realise that right now, the conversational aspect is still very one-note and I have no clue how to solve it. I also think it’s worth rereading my dissertation to make sure that everything I am doing right now makes sense. How can I implement that aspect of conversation?
+
+            </p>
+
+            <p>
+                I am tired already but last push. 
+
+            </p>
+
+           
+
+        </div>
+    </div>
+
+</body>
+
+    <script>
+        
+    </script>
+</html>
