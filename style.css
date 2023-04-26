@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Redaction 35 Italic';
-    font-weight: bold;
-    src: url('assets/fonts/formula-condensed/FormulaCondensed-Light.otf') format('truetype');
+    /* font-weight: bold; */
+    src: url('assets/fonts/Weissenhoff/Indian Type Foundry - WeissenhofGrotesk-Medium.otf') format('truetype');
 }
 
 
@@ -48,10 +48,12 @@ html, body {
     font-family: 'Redaction 35 Italic';
     color: whitesmoke;
   
+    
     font-size: 7rem;
     padding: 0%;
     margin: 0%;
     line-height: 6.5rem;
+    
   }
 
   .index-body h2{
@@ -152,8 +154,7 @@ background-color: whitesmoke;
 .page-body h1{
     font-family: 'Redaction 35 Italic';
     color: #056CF2;;
-  
-    font-size: 7rem;
+    letter-spacing: 10rem;
     padding: 0%;
     margin: 0%;
     line-height: 6.5rem;
