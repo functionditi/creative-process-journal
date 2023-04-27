@@ -430,3 +430,21 @@ padding: 0%;
   position: sticky;
   top: 3rem;
 }
+
+table {
+  border: 1px solid #056CF2;
+  color: #056CF2;
+  /* //border-color: ; */
+  border-collapse: collapse;
+
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid;
+  font-family: 'Neue Montreal';
+    padding: 0.3rem;
+    font-size: 1rem;
+    letter-spacing: 0.01rem;
+    line-height: 1.8rem;
+}
